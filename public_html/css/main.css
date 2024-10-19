@@ -1,0 +1,131 @@
+body {
+    font-family: sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 20px;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #4e4d4d;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #2f2f2f;
+}
+
+.header {
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+    margin: -20px -40px 20px -40px;
+}
+
+.header h1 {
+    color: #ffffff;
+    font-size: 25px;
+    margin: 0;
+}
+
+.filterBox {
+    background: white;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 12px;
+    border: thin solid lightgray;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    display: flex;
+    gap: 20px;
+}
+
+.buttons {
+    margin-left: 15px;
+}
+
+input, select, button {
+    padding: 8px;
+    border: thin solid lightgray;
+    border-radius: 4px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #f5f5f5;
+}
+
+.modalOverlay {
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(5px);
+    box-shadow: 0 0 26px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modalContent {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    width: 50%;
+    max-height: 80%;
+    overflow: auto;
+}
+
+.modalContent label {
+    display: inline-block;
+    width: 120px;
+}
+
+.modalContent input,
+.modalContent select {
+    width: 200px;
+}
+
+.modalContent img {
+    width: 100%;
+    margin: 10px;
+}
+
+
+table {
+    width: 90%;
+    margin: 100px auto;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 0 0 26px rgba(0, 0, 0, 0.25);
+    table-layout: fixed;
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #eee;
+    word-wrap: break-word;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+th {
+    background: black;
+    color: white;
+    cursor: pointer;
+    font-weight: 600;
+    user-select: none;
+}
+
+tbody tr:nth-child(even) {
+    background: #f1f1f1;
+}
+
+tbody tr:hover {
+    background: #d0d0d0;
+    cursor: pointer;
+}

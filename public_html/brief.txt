@@ -1,0 +1,41 @@
+====== Fetch the data (5%)
+
+====== Add an additional property - called free - to every record in the dataset. The free property should be set to "yes" if the attraction's description includes the word "free". Otherwise it should be set to "no" (5%)
+
+====== Search attractions (5%) ======
+
+====== Sort attractions (5%) =======
+
+====== Filter attractions against the rating, tags and free properties (5%) ========
+
+====== You must allow the user to apply the Search/Sort/Filter of attractions simultaneously (5%) =========
+
+====== You need to make a "tags manager" to allow the user to manage the list of available tags that can be applied to the attraction records. The tags list should be initialised when the original attractions dataset is fetched (5%)
+
+====== The "tags manager" can be used to add new tags (5%)
+
+====== When a tag is deleted, the tag must be deleted from all the attractions that contain it (5%)
+
+====== When a tag is modified, the tag must be modified in all the attractions that contain it (5%)
+
+====== Add a new attraction. You must be able add data in all fields of the attraction, including multiple images. Remember to include the free property when adding a new attraction.
+The Add feature must display without any other content (such as the table) showing on the webpage (10%).
+
+===== Modify attraction. You must be able change the data in all fields of the attraction, including the images. The Modify feature must display without any other content (such as the table) showing on the webpage (10%).
+
+====== Delete attraction. The Delete feature must include a "Confirm Delete" modal dialog (5%) ======
+
+
+Two Bootstrap templates (5%)
+
+Use only SCSS for your own code (5%)
+
+Professional looking User Interface (i.e. does it look good?) (5%)
+
+User friendly User Interface (i.e. is it easy to use?) (5%)
+
+Responsive, so that it works on all four resolutions below (5%)
+< 600px (mobile)
+600px to 768px (tablet)
+769px to 1200px (laptop)
+> 1200px (desktop)
